@@ -36,7 +36,7 @@ if ($errors)
   
 $user = 'u48757';
 $pass = '3306557';
-$db = new PDO('mysql:host=localhost;dbname=u47592', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+$db = new PDO('mysql:host=localhost;dbname=u48757', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
 try {
   $stmt = $db->prepare("INSERT INTO site (name, mail, date, gender, limbs, powers, biography) 
