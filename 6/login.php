@@ -2,7 +2,7 @@
 function dbconnect(){
   $user = 'u48757';
   $pass = '3306557';
-  $db = new PDO('mysql:host=localhost;dbname=u47597', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  $db = new PDO('mysql:host=localhost;dbname=u48757', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   return $db;
 }
 header('Content-Type: text/html; charset=UTF-8');
